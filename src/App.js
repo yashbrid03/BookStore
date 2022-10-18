@@ -44,13 +44,14 @@ const App = () => {
       <ToastContainer />
       <div className="cont">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <img
+          {/* <img
             className="app-logo"
             src={logo}
             width="60"
             height="60"
             alt="ReactJS"
-          />
+          /> */}
+
           <div className="collpase nav-collapse">
             <ul className="navbar-nav mr-auto">
               <li className="navbar-item">
@@ -70,7 +71,9 @@ const App = () => {
               </li>
             </ul>
           </div>
+
         </nav>
+
         <div className="content">
           <Switch>
             <Route exact path="/" component={Dashboard} />
