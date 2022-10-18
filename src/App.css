@@ -4,13 +4,20 @@
 @import './assets/css/modals.css';
 
 body {
-  font-family: Roboto,"Helvetica Neue",sans-serif !important;
+  font-family: Roboto, "Helvetica Neue", sans-serif !important;
+  background-image: url(https://images.hdqwalls.com/download/red-dead-redemption-2-minimal-art-4k-d7-1680x1050.jpg);
+
 }
 
 .app-logo {
   -webkit-animation: App-logo-spin infinite 20s linear;
   animation: App-logo-spin infinite 20s linear;
   margin-right: 30px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 120%;
 }
 
 .navbar {
@@ -79,7 +86,7 @@ body {
 }
 
 .navbar {
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,.16),0 0px 5px 0 rgba(0,0,0,.12)!important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .16), 0 0px 5px 0 rgba(0, 0, 0, .12) !important;
 }
 
 .media-body {
@@ -157,6 +164,7 @@ body {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

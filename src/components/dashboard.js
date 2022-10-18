@@ -1,5 +1,8 @@
 import React from "react";
 
 export default function dashboard() {
-  return <div>dashboard</div>;
+  return (<div className="heading">
+    Online Book Store
+  </div>
+  );
 }
